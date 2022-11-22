@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Paircolor.h"
 
 const char* MajorColorNames[] = {
