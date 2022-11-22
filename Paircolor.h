@@ -27,3 +27,4 @@ typedef struct {
 void ColorPairToString(const St_ColorPair* colorPair, char* buffer);
 St_ColorPair GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const St_ColorPair* colorPair);
+#endif
