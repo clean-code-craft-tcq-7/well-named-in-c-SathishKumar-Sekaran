@@ -1,7 +1,7 @@
 
 #include <stdio.h>
-#include <main.h>
 #include <Paircolor.h>
+#include <main.h>
 #include <assert.h>
 
 
