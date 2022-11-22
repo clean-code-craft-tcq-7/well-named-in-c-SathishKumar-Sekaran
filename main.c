@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include <Paircolor.h>
+#include "Paircolor.h"
 #include <main.h>
 #include <assert.h>
 
