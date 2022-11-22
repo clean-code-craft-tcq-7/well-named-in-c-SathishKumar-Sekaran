@@ -8,8 +8,8 @@
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
 void testNumberToPair(int pairNumber,
-    enum MajorColor expectedMajor,
-    enum MinorColor expectedMinor)
+    En_MajorColor expectedMajor,
+    En_MinorColor expectedMinor)
 {
     St_ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
@@ -20,8 +20,8 @@ void testNumberToPair(int pairNumber,
 }
 
 void testPairToNumber(
-    enum MajorColor major,
-    enum MinorColor minor,
+    En_MajorColor major,
+    En_MinorColor minor,
     int expectedPairNumber)
 {
     St_ColorPair colorPair;
