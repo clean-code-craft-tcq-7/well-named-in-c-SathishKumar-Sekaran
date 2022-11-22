@@ -2,7 +2,7 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
-void testPairToNumber( enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
+void testNumberToPair(int pairNumber, En_MajorColor expectedMajor, En_MinorColor expectedMinor);
+void testPairToNumber( En_MajorColor major, En_MinorColor minor, int expectedPairNumber);
 	
 #endif
